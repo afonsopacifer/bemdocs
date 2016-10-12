@@ -1,0 +1,33 @@
+{
+  "name": "bemdocs",
+  "description": "",
+  "version": "0.1.0",
+  "author": {
+    "name": "afonsopacifer",
+    "email": "afonsopacifer@live.com"
+  },
+  "bugs": {
+    "url": "https://github.com/afonsopacifer/bemdocs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afonsopacifer/bemdocs"
+  },
+  "keywords": [
+  ],
+  "preferGlobal": true,
+  "main": "src/index.js",
+  "bin": {
+    "bemdocs": "bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.3"
+  }
+}
